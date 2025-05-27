@@ -1,0 +1,30 @@
+# Verzeichnisse
+.git/
+.svn/
+.vscode/
+.idea/
+node_modules/
+vendor/
+docker/php/php.ini  # Falls Sie lokale Test-Konfigurationen haben
+
+# Dateien
+.env
+.env.local
+docker-compose.override.yml
+*.log
+*.md
+*.sql
+*.bak
+
+# Build-Artefakte
+/public/hot
+/public/storage
+/storage/*.key
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/views/
+/bootstrap/cache/
+
+# OS-spezifische Dateien
+.DS_Store
+Thumbs.db
