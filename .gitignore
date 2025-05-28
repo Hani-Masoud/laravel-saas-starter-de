@@ -19,3 +19,41 @@ yarn-error.log
 .phpstorm.meta.php
 /.docker
 .DS_Store
+
+npm-debug.log
+yarn-error.log
+.env
+# Node & Composer
+/src/node_modules
+/src/vendor
+
+# Env & Cache
+/src/.env
+/src/.env.*
+/src/.phpunit.result.cache
+/src/storage/*.key
+/src/public/storage
+
+# IDEs & OS
+/.idea/
+/.vscode/
+/.DS_Store
+
+# Logs & temp
+*.log
+*.pid
+
+# Docker files (optional)
+docker-compose.override.yml
+/docker/
+/src/docker/
+/src/sail
+
+# Laravel-specific
+/src/npm-debug.log
+/src/yarn-error.log
+/src/Homestead.yaml
+/src/Homestead.json
+
+# Git merge conflict files
+*.orig

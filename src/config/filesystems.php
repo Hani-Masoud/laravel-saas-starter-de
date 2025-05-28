@@ -59,7 +59,12 @@ return [
             'throw' => false,
             'report' => false,
         ],
-
+        // Path to store system seeding files like country/city CSV
+        'pre_data' => [
+            'driver' => 'local',
+            'root' => storage_path('app/pre_data'),
+            'throw' => false, // Do not throw exceptions if file is not found (optional behavior)
+        ],
     ],
 
     /*
